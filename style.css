@@ -4,15 +4,32 @@ h1{
     text-align: center;
     color: white;
     font-weight: bold;
+    text-decoration: underline;
 }
 div#imagem{
     text-align: center;
 }
 body{
-    background-color:blanchedalmond;
-    background-image: url(imagens/elenco-de-lua-nova.jpg);
+    background-color: black;
 }
 p, ol, ul, h5, table{
     color: white;
     font-weight: bold;
 }
+div#teste{
+    color: aliceblue;
+}
+a#wiki{
+    color: green;
+}
+em{
+    color: aquamarine;
+}
+p {
+    color: white;
+    width: 500px;
+    border: 1px solid black;
+  }
+  html {font-size: 15px; /* px significa "pixels": o tamanho da fonte base é agora de 15 pixels */
+    font-family: "Open Sans", sans-serif; /* este deve ser o nome da fonte que você obteve no Google Fonts */
+  }
